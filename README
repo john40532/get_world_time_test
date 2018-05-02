@@ -1,0 +1,6 @@
+control gazebo one step foward service.
+by adding   
+<node name="ros_get_world_time_1" pkg="get_world_time_test" type="ros_get_world_time" output="screen" />
+at launch file 
+
+<arg name="paused" default="true"/> need to be set to true
