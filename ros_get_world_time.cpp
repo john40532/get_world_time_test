@@ -22,7 +22,7 @@ bool next_step(std_srvs::Empty::Request  &req,
     gazebo::msgs::WorldControl msg;
     msg.set_step(1);
     pub->Publish(msg);
-    gazebo::common::Time::MSleep(10);
+    gazebo::common::Time::MSleep(1);
   }
 
   return true;
